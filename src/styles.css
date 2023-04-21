@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(56, 48, 48);
+  height: 100vh;
+  color: rgb(246, 231, 231);
+  gap: 1rem;
+}
+
+.tag_container {
+  border: 1px solid;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.tag_container input {
+  border: none;
+  padding-left: 0.2rem;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 0.4rem;
+}
+
+.tags {
+  height: max-content;
+  background-color: rgb(56, 56, 255);
+  color: white;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+.icon {
+  color: red;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.suggestion {
+  background-color: rgb(199, 199, 199);
+  padding: 0.2rem;
+  display: flex;
+  border-bottom: 1px solid;
+  border-radius: 0.2rem;
+  width: 60%;
+  color: black;
+  cursor: pointer;
+}
+
+.suggestion:hover {
+  background-color: rgb(71, 58, 250);
+  color: white;
+  transform: scale(1.1);
+}
+
+.btn {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-weight: bolder;
+  background-color: red;
+  color: white;
+  border: none;
+}
+.btn:active {
+  background-color: rgb(71, 58, 250);
+  padding: 0.7rem;
+}
